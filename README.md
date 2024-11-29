@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/i9xgjoanapwcnr9s?svg=true)](https://ci.appveyor.com/project/SemenPershin/ahj-homeworks-anim)
+[![Build status](https://ci.appveyor.com/api/projects/status/b961fbv4udnwduc9?svg=true)](https://ci.appveyor.com/project/SemenPershin/ahj-homeworks-http-client)
