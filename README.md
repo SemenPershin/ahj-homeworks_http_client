@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/i9xgjoanapwcnr9s?svg=true)](https://ci.appveyor.com/project/SemenPershin/ahj-homeworks-anim)

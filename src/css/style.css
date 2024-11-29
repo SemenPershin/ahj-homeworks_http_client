@@ -1,0 +1,118 @@
+body {
+    background-color: white;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+.notepad {
+    width: 50vw;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    padding: 16px 32px;
+}
+
+.add_button {
+    border: 2px solid black;
+    border-radius: 5px;
+
+    padding: 6px 12px;
+
+    cursor: pointer;
+
+    align-self: flex-end;
+
+}
+
+.add_ticket_Window {
+
+    background-color: white;
+    font-size: 20px;
+
+    position: absolute;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    padding: 6px 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    align-self: flex-start;
+    margin: 10px 0;
+}
+
+.description_input {
+    align-self: flex-start;
+    width: 33vw;
+
+}
+
+.ok_close_buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.ok_close_buttons > div {
+    border: 2px solid black;
+    border-radius: 5px;
+
+    padding: 6px 12px;
+
+    cursor: pointer;
+}
+
+.ticket {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+    min-width: 33vw;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    padding: 6px 12px;
+
+    margin: 10px 0;
+}
+
+.ticket > div {
+    margin: 0 5px
+}
+
+.ticket > div:nth-of-type(2) {
+    margin-left: auto;
+}
+
+.ticket_button {
+    cursor: pointer;
+}
+
+.ticket_description {
+    width: 100%;
+}
+
+.disable {
+    display: none;
+}
